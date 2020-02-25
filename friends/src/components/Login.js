@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {useHistory} from 'react-router-dom';
 
 import {Box, Form, FormField, Button, Heading} from 'grommet';
-import { axiosWithAuth } from '../utils/AxiosWithAuth';
+import axiosWithAuth from '../utils/AxiosWithAuth';
 
 const Login = (props) => {
     let history = useHistory();
